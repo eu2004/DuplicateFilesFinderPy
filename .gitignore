@@ -3,3 +3,5 @@
 /*.pkl
 /.idea
 /venv
+/*.bak
+/errors.txt

@@ -78,9 +78,5 @@ if os.path.isdir(input_dir_path):
 
     duplicated_files_pkl = os.path.basename(input_dir_path) + '_duplicated_files.pkl'
     pickle.dump(file_hash_map, open(duplicated_files_pkl, 'wb'))
-
-    duplicated_files_json = os.path.basename(input_dir_path) + '_duplicated_files.json'
-    with open(duplicated_files_json, 'w', encoding="utf-8") as f_duplicated_files_json:
-        f_duplicated_files_json.write(json.dumps(file_hash_map))
 else:
     print(input_dir_path, ' is not a valid directory!')

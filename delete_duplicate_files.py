@@ -28,5 +28,5 @@ with open(duplicated_files_to_delete_csv, 'r', encoding="utf-8") as f_duplicated
                 os.remove(file)
             except:
                 except_type, value, traceback = sys.exc_info()
-                print('error getting hash for: ', except_type, value, traceback)
+                print('error deleting file: ', file, except_type, value, traceback)
 

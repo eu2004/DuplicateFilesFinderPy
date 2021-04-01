@@ -2,7 +2,6 @@ import os.path
 import pickle
 import sys
 from pathlib import Path
-import json
 
 import FileHashHelper
 

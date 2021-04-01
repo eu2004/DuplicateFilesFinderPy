@@ -26,8 +26,8 @@ import pickle
 #             line = f_duplicated_files_keys_csv.readline()
 
 
-duplicated_files_csv = '12TB_._duplicated_files2.csv'
-duplicate_files_map = pickle.load(open('12TB_._duplicated_files2.pkl', 'rb'))
+duplicated_files_csv = 'external_hdd_4TB_data02_duplicated_files.csv'
+duplicate_files_map = pickle.load(open('external_hdd_4TB_data02_duplicated_files.pkl', 'rb'))
 count = 0
 with open(duplicated_files_csv, 'w', encoding="utf-8") as f_duplicated_files_csv:
     for key, value in duplicate_files_map.items():

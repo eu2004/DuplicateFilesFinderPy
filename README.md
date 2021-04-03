@@ -1,1 +1,1 @@
-"# DuplicatedFilesFinderPy" 
+"# DuplicateFilesFinderPy" 
